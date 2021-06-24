@@ -78,7 +78,7 @@ public class AccountsServiceTest {
 	
 	@Test
 	public void transfer() {
-		Integer time = 99999;
+		Integer time = 9999;
 		
 		// creating accounts
 		Account accountFrom = new Account("a", new BigDecimal(time));
@@ -114,7 +114,7 @@ public class AccountsServiceTest {
 	
 	@Test
 	public void transferBetweenSameAccounts() {
-		Integer time = 99999;
+		Integer time = 9999;
 		Integer midTime = time / 2;
 		
 		// creating accounts
